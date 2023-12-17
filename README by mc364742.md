@@ -1,8 +1,9 @@
-# *Course Project*
+# *COURSE PROJECT*
 
 ## 🍕 Sales Analysis of Plato's Pizza 2015 🍕
 
 by MC364742, Jessica Lai, Weijie
+
 
 ## Introduction
 
