@@ -1,7 +1,7 @@
 # courseproject_mc364742
 ## 🍕Sales Analysis of Plato's Pizza 2015🍕
 
-by MC364742, Jessica Lai, Weijie*
+by MC364742, Jessica Lai, Weijie
 
 ## Introduction
 Plato’s Pizza is a Greek-inspired pizza place in New Jersey.
@@ -11,9 +11,13 @@ This tutorial is for practice before starting a real business analysis by python
 
 ### Please kindly read the following instruction before you follow the tutorial:
 **Overall Steps and Rundown** 
+
 Step 1: Finding and download the dataset (an archive zip) file from the website
+
 Step 2: Unzip it then use python to analyse task with visualization by different concerns
+
 Step 3: Try it on your won by reading the explanation and code demonstration
+
 Step 4: Produce conclusion by the visualized analysis for furthur strategic plan
 
 **Notes** 
@@ -22,20 +26,33 @@ Step 4: Produce conclusion by the visualized analysis for furthur strategic plan
 **Tools Needed** 
 ###### Please install the following tools before you start the tutorial.
 import pandas as pd
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 import matplotlib.dates as mdates
+
 import matplotlib.cm as cm
+
 from matplotlib_venn import venn2
+
 from sklearn.preprocessing import LabelEncoder
 
 ###### Tools Introduction
+
 pandas: Data processing and analysis
+
 seaborn: Data visualization library for matplotlib
+
 Matplotlib. pylot: the submodule of matplotlib, drawing various types of chart functions
+
 matplotlib.dates: provides date and time related functions
+
 matplotlib.cm: Map the value to the color space
+
 matplotlib.venn: Draw a Venn diagram
+
 sklearn.preprocessing LabelEncode: encodes categorical variables
 
 ## 1) SECTION 1: FINDING A DATASET
@@ -62,6 +79,7 @@ category：Category that the pizza fall under in the menu (Classic, Chicken, Sup
 ingredients：Comma-delimited ingredients used in the pizza as shown in the menu (they all include Mozzarella Cheese, even if not specified; and they all include Tomato Sauce, unless another sauce is specified)
 
 **Business Task**
+
 #### The enlightenment by sales trend and customer preference analysis to the resource optimization inspiration.
 
 We can know the conclusion by the following concerns:
