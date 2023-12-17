@@ -1,6 +1,7 @@
 # courseproject_mc364742
-🍕Sales Analysis of Plato's Pizza 2015🍕
-by MC364742, Jessica Lai, Weijie
+## 🍕Sales Analysis of Plato's Pizza 2015🍕
+
+by MC364742, Jessica Lai, Weijie*
 
 ## Introduction
 Plato’s Pizza is a Greek-inspired pizza place in New Jersey.
