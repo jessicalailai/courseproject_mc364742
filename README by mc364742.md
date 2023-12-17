@@ -16,11 +16,11 @@ It shows by the visualized charts and with analysis to better help owner deploy 
 This tutorial is for practice before starting a real business analysis by python coding and visualizing. The dataset content has been developed a long while and nowadays information is more abundant and there are more to explore for the dataset. Please use the dataset according to the authentic situation.
 
 
+
 ### Please kindly read the following instruction before you follow the tutorial:
 
 
 **Overall Steps and Rundown** 
-
 
 Step 1: Finding and download the dataset (an archive zip) file from the website
 
@@ -31,15 +31,18 @@ Step 3: Try it on your won by reading the explanation and code demonstration
 Step 4: Produce conclusion by the visualized analysis for furthur strategic plan
 
 
+
 **Notes** 
 
 
 ###### Please download and install Python and Jupyter Notebook in Anaconda before you start the tutorial.
 
 
+
 **Tools Needed** 
 
 ###### Please install the following tools before you start the tutorial.
+
 
 import pandas as pd
 
@@ -54,6 +57,7 @@ import matplotlib.cm as cm
 from matplotlib_venn import venn2
 
 from sklearn.preprocessing import LabelEncoder
+
 
 
 ###### Tools Introduction
@@ -74,6 +78,7 @@ matplotlib.venn: Draw a Venn diagram
 sklearn.preprocessing LabelEncode: encodes categorical variables
 
 
+
 ## 1) SECTION 1: FINDING A DATASET
 
 
@@ -81,6 +86,7 @@ sklearn.preprocessing LabelEncode: encodes categorical variables
 
 There's an open resource file provided by kaggle.com, please download the dataset from:
 https://www.kaggle.com/datasets/shilongzhuang/pizza-sales
+
 
 **About the dataset**
 
@@ -100,6 +106,7 @@ pizza_type_id：Unique identifier for each pizza type
 name：Name of the pizza as shown in the menu
 category：Category that the pizza fall under in the menu (Classic, Chicken, Supreme, or Veggie)
 ingredients：Comma-delimited ingredients used in the pizza as shown in the menu (they all include Mozzarella Cheese, even if not specified; and they all include Tomato Sauce, unless another sauce is specified)
+
 
 **Business Task**
 
