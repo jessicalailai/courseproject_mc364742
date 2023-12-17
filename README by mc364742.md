@@ -20,6 +20,7 @@ This tutorial is for practice before starting a real business analysis by python
 
 **Overall Steps and Rundown** 
 
+
 Step 1: Finding and download the dataset (an archive zip) file from the website
 
 Step 2: Unzip it then use python to analyse task with visualization by different concerns
@@ -31,10 +32,12 @@ Step 4: Produce conclusion by the visualized analysis for furthur strategic plan
 
 **Notes** 
 
+
 ###### Please download and install Python and Jupyter Notebook in Anaconda before you start the tutorial.
 
 
 **Tools Needed** 
+
 ###### Please install the following tools before you start the tutorial.
 
 import pandas as pd
@@ -53,6 +56,7 @@ from sklearn.preprocessing import LabelEncoder
 
 
 ###### Tools Introduction
+
 
 pandas: Data processing and analysis
 
